@@ -43,11 +43,85 @@
 
         <div class="container instrument-container">
 
+
+            <div class="filter">
+                <div class="filter-icon"><span class="glyphicon glyphicon-filter"></span></div>
+                <div class="filter-form">
+                    <form class="form-inline">
+                        <div class="form-group form-group-sm">
+                            <label for="filterInputClass" class="control-label">Class</label>
+                            <select id="filterInputClass" name="filterInputClass" class="form-control">
+                                <option value="">ALL</option>
+                                <option value="K1">K1</option>
+                                <option value="K2">K2</option>
+                                <option value="K3">K3</option>
+                                <option value="P1A">P1A</option>
+                                <option value="P1B">P1B</option>
+                                <option value="P2">P2</option>
+                                <option value="P3">P3</option>
+                                <option value="P4">P4</option>
+                                <option value="P5">P5</option>
+                                <option value="P678">P678</option>
+                            </select>
+                        </div>
+                        <div class="form-group form-group-sm">
+                            <label for="filterInputRating" class="control-label">Rating</label>
+                            <select id="filterInputRating" name="filterInputRating" class="form-control">
+                                <option value="">ALL</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                        </div>
+                        <div class="form-group form-group-sm form-group-checkbox">
+                            <label class="control-label">Sensors</label>
+                            <div class="form-checkbox-list">
+                                <div class="checkbox">
+                                    <label><input type="checkbox" name="filterSensors" value="button"> Button</label>
+                                </div>
+                                <div class="checkbox">
+                                    <label><input type="checkbox" name="filterSensors" value="color"> Color</label>
+                                </div>
+                                <div class="checkbox">
+                                    <label><input type="checkbox" name="filterSensors" value="ir"> IR</label>
+                                </div>
+                                <div class="checkbox">
+                                    <label><input type="checkbox" name="filterSensors" value="ultra-sonic"> Ultra-Sonic</label>
+                                </div>
+                                <div class="checkbox">
+                                    <label><input type="checkbox" name="filterSensors" value="gyro"> Gyro</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group form-group-sm form-group-checkbox">
+                            <label class="control-label">Ports</label>
+                            <div class="form-checkbox-list">
+                                <div class="checkbox">
+                                    <label><input type="checkbox" name="filterPort" value="1"> Port 1</label>
+                                </div>
+                                <div class="checkbox">
+                                    <label><input type="checkbox" name="filterPort" value="2"> Port 2</label>
+                                </div>
+                                <div class="checkbox">
+                                    <label><input type="checkbox" name="filterPort" value="3"> Port 3</label>
+                                </div>
+                                <div class="checkbox">
+                                    <label><input type="checkbox" name="filterPort" value="4"> Port 4</label>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+
             <!-- BEGIN INSTRUMENT -->
             <div class="instrument-card">
                 <div class="row">
                     <div class="col-sm-6">
-                        <div class="instrument-image" style="background-image:url('pics/IMG_7391.JPG');"></div>
+                        <a href="pics/IMG_7391.JPG" target="_blank" class="instrument-image" style="background-image:url('pics/IMG_7391.JPG');"></a>
                     </div>
                     <div class="col-sm-6">
                         <h3>IMG_7391.JPG <span class="photo-time">19th October, 10:53</span></h3>
